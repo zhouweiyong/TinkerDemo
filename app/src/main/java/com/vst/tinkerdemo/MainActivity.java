@@ -15,6 +15,7 @@ import com.vst.jnitest.JniTest;
  * 深度学习
  * https://github.com/mari-linhares/mnist-android-tensorflow
  * <p>
+ * https://bugly.qq.com/docs/
  * https://github.com/GitLqr/HotFixDemo
  * https://juejin.im/post/5a27bdaf6fb9a044fa19bcfc
  */
