@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vst.tinkerdemo.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:id="@+id/img"
+        android:src="@mipmap/img"/>
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show from java" />
+
+    <Button
+        android:id="@+id/btn_show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show from native" />
+
+    <Button
+        android:id="@+id/btn_fix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fix" />
+
+    <Button
+        android:id="@+id/btn_unfix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unfix" />
+
+    <Button
+        android:id="@+id/btn_hack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="load library(hack)" />
+
+    <Button
+        android:id="@+id/btn_nohack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="load library(nohack)" />
+
+
+</LinearLayout>
